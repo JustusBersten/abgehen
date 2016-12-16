@@ -22,6 +22,7 @@ Videos und Links zu Taktiken.
 [Strategy for every T-side default](https://www.reddit.com/r/GlobalOffensive/comments/417kah/csgo_strategy_basics_for_t_side/)
 [More Basics on T-side](https://www.reddit.com/r/GlobalOffensive/comments/41zbou/guide_to_tside_everyones_invited/)
 [Crucial Crosshair Placement](https://www.youtube.com/watch?v=U9mvXfnY8wU)
+[How to play the inside lane](https://www.youtube.com/watch?v=DfMvtrc8Ntk)
 [Tactical uncommon Bomb plants](http://steamcommunity.com/sharedfiles/filedetails/?id=551826753)
 
 Pistol Round Basics:
@@ -50,7 +51,7 @@ Pistol Round Basics:
 [How to throw Smokes on A](https://www.youtube.com/watch?v=0NQjJcqeDl8)
 [Smokes A Execute done right](https://www.youtube.com/watch?v=hr0Q2xz2d18)
 [B Split Execute](https://www.youtube.com/watch?v=u_V8l58XsR4)
-
+[B Site Smokes](https://www.youtube.com/watch?v=racQWESZQBc)
 [Window Smoke (64 tick)](https://www.youtube.com/watch?v=QTHNvldqOjQ)
 [Window Smoke (128 tick)](https://www.youtube.com/watch?v=Tuk64GWXUao)
 
@@ -62,6 +63,7 @@ Pistol Round Basics:
 ##### Train
 [Controlling Ivy](https://www.youtube.com/watch?v=KGy66DEZWT4)
 [T-side Pistol](https://www.youtube.com/watch?v=R41GBUaMqkQ)
+[Basic Smokes on Train](https://www.youtube.com/watch?v=nWfqVWVa9Og)
 
 
 ##### Overpass
