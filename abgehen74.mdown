@@ -1,0 +1,141 @@
+Team #ABGEHEN
+===
+
+### Allgemeine Geschäftsbedingungen (AGB)
+**§ 1 Verpflichtungen**
+Abgehen.
+
+**§ 2 Infos**
+Hier ist ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfen hat und ich nützlich fand.
+
+**§ 3 Autor**
+[Marius "phecks" T.](http://csgo-stats.com/phecks/)
+
+
+---
+
+### Taktiken
+Videos und Links zu Taktiken.
+
+#### Basics
+[How to form a Team](https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/)
+[Strategy for every T-side default](https://www.reddit.com/r/GlobalOffensive/comments/417kah/csgo_strategy_basics_for_t_side/)
+[More Basics on T-side](https://www.reddit.com/r/GlobalOffensive/comments/41zbou/guide_to_tside_everyones_invited/)
+[Crucial Crosshair Placement](https://www.youtube.com/watch?v=U9mvXfnY8wU)
+[Tactical uncommon Bomb plants](http://steamcommunity.com/sharedfiles/filedetails/?id=551826753)
+
+Pistol Round Basics:
+
+- If you lost pistol round
+    - and no bomb plant -> force buy tec9s -> if still lost go full eco and buy round 4
+    - but planted the bomb -> go full eco round 2 -> buy AKs and full skrilla round 3
+
+
+#### Maps
+
+##### Cache
+[Taking A Site](https://www.youtube.com/watch?v=i3_WI2OxwyM)
+[How to take B](https://www.youtube.com/watch?v=WGaZcqpnGE8)
+[B CT Smoke from outside](https://www.youtube.com/watch?v=O7Y6umjCnRc)
+[A Site Smoke Quad](https://www.youtube.com/watch?v=rqZTBNC0NKA)
+[Wallbang Whitebox](https://www.youtube.com/watch?v=PioblYcMwWc)
+[Whitebox Smoke](https://www.youtube.com/watch?v=85z8EQdMuQE)
+
+##### Dust2
+[Dust2 Default Vid](https://www.youtube.com/watch?v=j8qHbFkzkOU)
+[Dust2 Default Slides](https://docs.google.com/presentation/d/1Y_F1F5OBfvsRHCD-nFQYdapCqkItX1ixpj5-YfahBOA/preview?slide=id.gf9b470910_0_0)
+
+
+##### Mirage
+[How to throw Smokes on A](https://www.youtube.com/watch?v=0NQjJcqeDl8)
+[Smokes A Execute done right](https://www.youtube.com/watch?v=hr0Q2xz2d18)
+[B Split Execute](https://www.youtube.com/watch?v=u_V8l58XsR4)
+
+[Window Smoke (64 tick)](https://www.youtube.com/watch?v=QTHNvldqOjQ)
+[Window Smoke (128 tick)](https://www.youtube.com/watch?v=Tuk64GWXUao)
+
+
+##### Cbblestone
+[Smokes and Flashes](https://www.youtube.com/watch?v=fvt0bnLuB1E)
+
+
+##### Train
+[Controlling Ivy](https://www.youtube.com/watch?v=KGy66DEZWT4)
+[T-side Pistol](https://www.youtube.com/watch?v=R41GBUaMqkQ)
+
+
+##### Overpass
+[Monster Strategy](https://www.youtube.com/watch?v=eq0yfdcvKl4)
+[4 important Smokes on de_Overpass](https://www.youtube.com/watch?v=PNCl_u-lx24)
+
+##### Infernew
+[6 Smokes](https://www.reddit.com/r/GlobalOffensive/comments/57wunx/6_pug_smokes_to_help_your_life_on_inferno/)
+
+
+---
+
+### Config
+Wichtiges für die Config
+
+#### Netsettings
+Die Tage der perfekt abgestimmten Netsettings, wie man sie bei 1.6 haben musste, sind gezählt. Jetzt gibt es nur noch einen Standard.
+```
+rate "128000"
+cl_cmdrate "128"
+cl_updaterate "128"
+cl_interp "0"
+cl_interp_ratio "1"
+```
+
+#### Sound (outdated since fucking HTRF update)
+[Guide to Sound](https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/)
+
+von phecks
+```
+snd_mixahead "0.05"
+dsp_enhance_stereo "0"
+windows_speaker_config "1"
+snd_front_headphone_position "45.0"
+snd_rear_headphone_position "90.0"
+snd_headphone_pan_exponent "1.2"
+snd_headphone_pan_radial_weight "0.5"
+```
+
+#### Jumpthrow
+```
+alias "+jthrow" "+jump;-attack"
+alias "-jthrow" "-jump"
+bind "mouse3" "+jthrow"
+```
+
+#### Launch Options
+von phecks
+```
+-noforcemparms -noforcemaccel -novid -console  -32bit -dxlevel 90 -refresh 120  -nod3d9ex -tickrate 128
+```
+
+#### Simple Radar
+
+<a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a>
+MM ✔
+Faceit ✔
+ESL ✔
+99Damage ✔
+ESEA ✔
+
+Für ein Radar, welches den Namen auch verdient, fügt man der Config noch diese Befehle hinzu:
+```
+cl_hud_radar_scale "1.15"
+cl_radar_rotate "1"
+cl_radar_scale "0.35" 
+cl_radar_square_with_scoreboard "0"
+cl_teamid_overhead_name_alpha "255"
+```
+
+
+---
+
+### Kontakt
+Mail: justusbersten@gmail.com
+
+---
