@@ -6,10 +6,15 @@ Team #ABGEHEN
 Abgehen.
 
 **§ 2 Infos**
-Hier ist ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfen hat und ich nützlich fand.
+Ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfen hat und ich nützlich fand.
 
 **§ 3 Autor**
 [Marius "phecks" T.](http://csgo-stats.com/phecks/)
+ESEA
+
+**§ 4 Liga und Teams**
+[ESL - Die gläserne MILF](https://play.eslgaming.com/team/10764574/)
+
 
 
 ---
@@ -17,20 +22,39 @@ Hier ist ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mi
 ### Taktiken
 Videos und Links zu Taktiken.
 
+
 #### Basics
+
+##### Basics on how to play as a Team
 [How to form a Team](https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/)
+[Kommunikation in Ligaspielen (by HEADSTYLE)](linkfehlt.com) 
+
+##### Terrorist Side Basics
 [Strategy for every T-side default](https://www.reddit.com/r/GlobalOffensive/comments/417kah/csgo_strategy_basics_for_t_side/)
 [More Basics on T-side](https://www.reddit.com/r/GlobalOffensive/comments/41zbou/guide_to_tside_everyones_invited/)
-[Crucial Crosshair Placement](https://www.youtube.com/watch?v=U9mvXfnY8wU)
-[How to play the inside lane](https://www.youtube.com/watch?v=DfMvtrc8Ntk)
 [Tactical uncommon Bomb plants](http://steamcommunity.com/sharedfiles/filedetails/?id=551826753)
-[Bunny Hop 2016](https://www.youtube.com/watch?v=yIpURIKhJSs)
+
 Pistol Round Basics:
 
 - If you lost pistol round
     - and no bomb plant -> force buy tec9s -> if still lost go full eco and buy round 4
     - but planted the bomb -> go full eco round 2 -> buy AKs and full skrilla round 3
 
+
+#####  Aiming
+[Crucial Crosshair Placement](https://www.youtube.com/watch?v=U9mvXfnY8wU)
+[How to play the inside lane](https://www.youtube.com/watch?v=DfMvtrc8Ntk)
+
+#####  Movement
+[Bunny Hop 2016](https://www.youtube.com/watch?v=yIpURIKhJSs)
+[Jump Training Map](https://steamcommunity.com/sharedfiles/filedetails/?l=german&id=314892291)
+
+
+#####  Tools
+[VAC Checker](https://github.com/MrHayato/VacBanChecker)
+
+
+---
 
 #### Maps
 
@@ -42,13 +66,18 @@ Pistol Round Basics:
 [Wallbang Whitebox](https://www.youtube.com/watch?v=PioblYcMwWc)
 [Whitebox Smoke](https://www.youtube.com/watch?v=85z8EQdMuQE)
 [B site strat very good](https://www.youtube.com/watch?v=E9d3b-H3o-g)
+[10 Self Pop Flashes on Cache](https://www.youtube.com/watch?v=_4tUZPpSWh0)
 
 ##### Dust2
 [Default Vid by Adren](https://www.youtube.com/watch?v=j8qHbFkzkOU)
 [Dust2 Default Slides](https://docs.google.com/presentation/d/1Y_F1F5OBfvsRHCD-nFQYdapCqkItX1ixpj5-YfahBOA/preview?slide=id.p)
 [TrilluXe on Long Corner Smoke and XBOX smoke](https://www.youtube.com/watch?v=BYWgzHGY0xI)
 [Easy XBOX Smoke for Default](https://youtu.be/FkZ3ECtzSuA?t=43)
-
+[Rush B by Adren](https://www.youtube.com/watch?v=9LkmWXSpr14)
+[Rush Cat by Adren](https://www.youtube.com/watch?v=lYCBinRyAyQ)
+[Rush Long by Adren](https://www.youtube.com/watch?v=FiN9ZFpWFS0)
+[Long A Corner Smoke](https://www.youtube.com/watch?v=bH-W99HtFQE&)
+[Dust2 Solo Strategies](https://www.youtube.com/watch?v=CKx0n-fIg9c)
 
 ##### Mirage
 [How to throw Smokes on A](https://www.youtube.com/watch?v=0NQjJcqeDl8)
@@ -67,6 +96,7 @@ Pistol Round Basics:
 [Controlling Ivy](https://www.youtube.com/watch?v=KGy66DEZWT4)
 [T-side Pistol](https://www.youtube.com/watch?v=R41GBUaMqkQ)
 [Basic Smokes on Train](https://www.youtube.com/watch?v=nWfqVWVa9Og)
+[Beginner Guide to Train (40min)](https://www.youtube.com/watch?t=40&v=bwzFAYgUJZU)
 
 
 ##### Overpass
@@ -95,8 +125,11 @@ cl_interp_ratio "1"
 #### Sound (outdated since fucking HTRF update)
 [Guide to Sound](https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/)
 
-von phecks
+**DISABLE HRTF with snd_use_hrtf 0**
+
+von phecks:
 ```
+snd_use_hrtf "0"
 snd_mixahead "0.05"
 dsp_enhance_stereo "0"
 windows_speaker_config "1"
