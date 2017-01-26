@@ -1,35 +1,143 @@
-Team #ABGEHEN
+Justus Bersten's CS:GO Repository
 ===
 
-### Allgemeine Geschäftsbedingungen (AGB)
-**§ 1 Verpflichtungen**
-Abgehen.
-
-**§ 2 Infos**
-Ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfen hat und ich nützlich fand.
-
-**§ 3 Autor**
+**§ 1 Author**
 [Marius "phecks" T.](http://csgo-stats.com/phecks/)
-ESEA
+[ESEA.Profile](https://play.esea.net/users/1151692)
 
-**§ 4 Liga und Teams**
+**§ 2 Teams**
 [ESL - Die gläserne MILF](https://play.eslgaming.com/team/10764574/)
+[Steam Group](asdff)
 
-
+**§ 3 Infos**
+This is my constantly updated CS:GO repository with strats, personal settings and my personal config.
 
 ---
 
-### Taktiken
-Videos und Links zu Taktiken.
+### Settings & Config
 
+**TL.DR Version**
+[valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) Updated 19.01.2017
+
+Very good video to get started: [How to setup your PC for CS:GO](https://www.youtube.com/watch?v=HDJPjDg6EsI)
+
+#### Windows 10 Settings
+- Windows Sensitivity: 6/11
+- Pointer acceleration: OFF
+- Mouse: Steelseries Kinzu v2
+- Mouse DPI: 400
+- Mouse Polling Rate: 1000hz
+- Nvidia Settings VSYNC: OFF
+- [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Virbance Level 100% (Automated digital Vibrance)
+- [Remove XBOX DVR](https://www.youtube.com/watch?v=9MHe2DmjYhc) - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.
+
+
+#### Launch Options
+```
+-noforcemparms -noforcemaccel -novid -nojoy -threads 4 -console -tickrate 128 -refresh 144
+```
+Enter launch options at _Steam > Library > Counter-Strike: Global Offensive (right-click) > Properties > Set Launch Options_
+
+
+#### Netsettings
+The old times of perfectly adjusted netsettings are over (remember 1.6). There is only one standard nowadays:
+```
+rate "128000"
+cl_cmdrate "128"
+cl_updaterate "128"
+cl_interp "0"
+cl_interp_ratio "1"
+```
+
+
+#### Sound 
+Good read to get started: [Guide to Sound](https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/)
+
+**IMPORTANT: DISABLE HRTF with snd_use_hrtf 0**
+
+```
+snd_use_hrtf "0"
+snd_musicvolume "0"
+snd_mixahead "0.05"
+dsp_enhance_stereo "0"
+windows_speaker_config "1"
+snd_front_headphone_position "45.0"
+snd_rear_headphone_position "90.0"
+snd_headphone_pan_exponent "1.2"
+snd_headphone_pan_radial_weight "0.5"
+```
+
+
+#### Video
+After the Wild West Simulator 2015 update, video.txt needs to be put in _..\Steam\userdata\<Steam3 ID>\730\local\cfg_
+```
+"VideoConfig"
+{
+    "setting.cpu_level"     "0"
+    "setting.gpu_level"     "0"
+    "setting.mat_antialias"     "0"
+    "setting.mat_aaquality"     "0"
+    "setting.mat_forceaniso"        "0"
+    "setting.mat_vsync"     "0"
+    "setting.mat_triplebuffered"        "0"
+    "setting.mat_grain_scale_override"      "1"
+    "setting.gpu_mem_level"     "0"
+    "setting.mem_level"     "2"
+    "setting.mat_queue_mode"        "-1"
+    "setting.csm_quality_level"     "0"
+    "setting.mat_software_aa_strength"      "0"
+    "setting.mat_motion_blur_enabled"       "0"
+    "setting.fullscreen"        "1"
+    "setting.defaultres"        "1440"
+    "setting.defaultresheight"      "1080"
+    "setting.aspectratiomode"       "0"
+    "setting.nowindowborder"        "0"
+}
+```
+
+
+#### Jumpthrow
+```
+alias "+jthrow" "+jump;-attack"
+alias "-jthrow" "-jump"
+bind "mouse3" "+jthrow"
+```
+
+
+#### Simple Radar
+
+Click the picture below:
+<a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a>
+
+MM ✔
+Faceit ✔
+ESL ✔ 
+99Damage ✔
+ESEA ✔
+
+```
+cl_radar_always_centered "1"
+cl_radar_scale "0.35"
+cl_hud_radar_scale "1.15"
+cl_radar_icon_scale_min "1"
+cl_radar_rotate "1"
+cl_radar_square_with_scoreboard "0"
+```
+
+
+ ---
+
+
+### Strats
+Videos and links
 
 #### Basics
 
-##### Basics on how to play as a Team
-[How to form a Team](https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/)
-[Kommunikation in Ligaspielen (by HEADSTYLE)](linkfehlt.com) 
+##### How to play as a team
+[Forming a Team](https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/)
+[Kommunikation in Ligaspielen (by HEADSTYLE)](https://github.com/JustusBersten/abgehen/blob/master/headstyle_kommunikation.txt)
 
-##### Terrorist Side Basics
+##### How to play terrorist side
 [Strategy for every T-side default](https://www.reddit.com/r/GlobalOffensive/comments/417kah/csgo_strategy_basics_for_t_side/)
 [More Basics on T-side](https://www.reddit.com/r/GlobalOffensive/comments/41zbou/guide_to_tside_everyones_invited/)
 [Tactical uncommon Bomb plants](http://steamcommunity.com/sharedfiles/filedetails/?id=551826753)
@@ -48,17 +156,21 @@ Pistol Round Basics:
 #####  Movement
 [Bunny Hop 2016](https://www.youtube.com/watch?v=yIpURIKhJSs)
 [Jump Training Map](https://steamcommunity.com/sharedfiles/filedetails/?l=german&id=314892291)
-[Jump Traing Walkthrough (outdatet)](https://www.youtube.com/watch?v=9dJ34sUYXyA)
+[Jump Traing Walkthrough (outdated)](https://www.youtube.com/watch?v=9dJ34sUYXyA)
 
 #####  Tools
 [VAC Checker](https://github.com/MrHayato/VacBanChecker)
+[Match History Checker](https://csgostats.gg/)
 
 
 ---
 
+
 #### Maps
 
 ##### Cache
+[T side Default](http://team-dignitas.net/articles/blogs/CSGO/8531/default-strategies-on-t-side-team-envyus-on-de_cache)
+[T Pistol B Strat](https://www.youtube.com/watch?v=g9WfIXWgU5s)
 [Taking A Site](https://www.youtube.com/watch?v=i3_WI2OxwyM)
 [How to take B](https://www.youtube.com/watch?v=WGaZcqpnGE8)
 [B CT Smoke from outside](https://www.youtube.com/watch?v=O7Y6umjCnRc)
@@ -69,19 +181,21 @@ Pistol Round Basics:
 [10 Self Pop Flashes on Cache](https://www.youtube.com/watch?v=_4tUZPpSWh0)
 [70+ tips and tricks](http://imgur.com/a/hIydX)
 
+
 ##### Dust2
 [Default Vid by Adren](https://www.youtube.com/watch?v=j8qHbFkzkOU)
 [Dust2 Default Slides](https://docs.google.com/presentation/d/1Y_F1F5OBfvsRHCD-nFQYdapCqkItX1ixpj5-YfahBOA/preview?slide=id.p)
-[TrilluXe on Long Corner Smoke and XBOX smoke](https://www.youtube.com/watch?v=BYWgzHGY0xI)
 [Easy XBOX Smoke for Default](https://youtu.be/FkZ3ECtzSuA?t=43)
+[TrilluXe on Long Corner Smoke and XBOX smoke](https://www.youtube.com/watch?v=BYWgzHGY0xI)
 [5 Pistol Strats](https://www.youtube.com/watch?v=-0IRGw5WETQ)
 [Rush B by Adren](https://www.youtube.com/watch?v=9LkmWXSpr14)
 [Rush Cat by Adren](https://www.youtube.com/watch?v=lYCBinRyAyQ)
 [Rush Long by Adren](https://www.youtube.com/watch?v=FiN9ZFpWFS0)
 [Long A Corner Smoke](https://www.youtube.com/watch?v=bH-W99HtFQE&)
 [Dust2 Solo Strategies](https://www.youtube.com/watch?v=CKx0n-fIg9c)
-[PERFECT long flash](https://www.youtube.com/watch?v=mIFKHmg96-g)
+[PERFECT long flash](https://youtu.be/mIFKHmg96-g?t=44)
 [Must known Smokes for DD2](https://www.youtube.com/watch?v=1agDWlnkPJw)
+
 
 ##### Mirage
 [How to throw Smokes on A](https://www.youtube.com/watch?v=0NQjJcqeDl8)
@@ -95,90 +209,30 @@ Pistol Round Basics:
 
 ##### Cbblestone
 [Smokes and Flashes](https://www.youtube.com/watch?v=fvt0bnLuB1E)
+[More Smokes and Mollys (updated)](https://www.youtube.com/watch?v=BaKM816ABv8)
 
 
 ##### Train
+[Beginner Guide to Train (40min)](https://www.youtube.com/watch?t=40&v=bwzFAYgUJZU)
+[Basic Smokes on Train](https://www.youtube.com/watch?v=nWfqVWVa9Og)
 [Controlling Ivy](https://www.youtube.com/watch?v=KGy66DEZWT4)
 [T-side Pistol](https://www.youtube.com/watch?v=R41GBUaMqkQ)
-[Basic Smokes on Train](https://www.youtube.com/watch?v=nWfqVWVa9Og)
-[Beginner Guide to Train (40min)](https://www.youtube.com/watch?t=40&v=bwzFAYgUJZU)
 
 
 ##### Overpass
-[Monster Strategy](https://www.youtube.com/watch?v=eq0yfdcvKl4)
 [4 important Smokes on de_Overpass](https://www.youtube.com/watch?v=PNCl_u-lx24)
+[Monster Strategy](https://www.youtube.com/watch?v=eq0yfdcvKl4)
+
 
 ##### Infernew
 [6 Smokes](https://www.reddit.com/r/GlobalOffensive/comments/57wunx/6_pug_smokes_to_help_your_life_on_inferno/)
+[Banana Control as T](https://www.youtube.com/watch?v=xbNRKq45PTM)
 
 
 ---
 
-### Config
-Wichtiges für die Config
-
-#### Netsettings
-Die Tage der perfekt abgestimmten Netsettings, wie man sie bei 1.6 haben musste, sind gezählt. Jetzt gibt es nur noch einen Standard.
-```
-rate "128000"
-cl_cmdrate "128"
-cl_updaterate "128"
-cl_interp "0"
-cl_interp_ratio "1"
-```
-
-#### Sound (outdated since fucking HTRF update)
-[Guide to Sound](https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/)
-
-**DISABLE HRTF with snd_use_hrtf 0**
-
-von phecks:
-```
-snd_use_hrtf "0"
-snd_mixahead "0.05"
-dsp_enhance_stereo "0"
-windows_speaker_config "1"
-snd_front_headphone_position "45.0"
-snd_rear_headphone_position "90.0"
-snd_headphone_pan_exponent "1.2"
-snd_headphone_pan_radial_weight "0.5"
-```
-
-#### Jumpthrow
-```
-alias "+jthrow" "+jump;-attack"
-alias "-jthrow" "-jump"
-bind "mouse3" "+jthrow"
-```
-
-#### Launch Options
-von phecks
-```
--noforcemparms -noforcemaccel -novid -console  -32bit -dxlevel 90 -refresh 120  -nod3d9ex -tickrate 128
-```
-
-#### Simple Radar
-
-<a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a>
-MM ✔
-Faceit ✔
-ESL ✔
-99Damage ✔
-ESEA ✔
-
-Für ein Radar, welches den Namen auch verdient, fügt man der Config noch diese Befehle hinzu:
-```
-cl_hud_radar_scale "1.15"
-cl_radar_rotate "1"
-cl_radar_scale "0.35" 
-cl_radar_square_with_scoreboard "0"
-cl_teamid_overhead_name_alpha "255"
-```
-
-
----
-
-### Kontakt
+### Contact
 Mail: justusbersten@gmail.com
+Twitter: [@justusbersten](https://twitter.com/justusbersten)
 
 ---
