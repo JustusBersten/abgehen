@@ -1014,21 +1014,107 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>abgehen74</title></head><body><article class="markdown-body"><h1 id="team-abgehen"><a name="user-content-team-abgehen" href="#team-abgehen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Team #ABGEHEN</h1>
-<h3 id="allgemeine-geschaftsbedingungen-agb"><a name="user-content-allgemeine-geschaftsbedingungen-agb" href="#allgemeine-geschaftsbedingungen-agb" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Allgemeine Geschäftsbedingungen (AGB)</h3>
-<p><strong>§ 1 Verpflichtungen</strong><br />
-Abgehen.</p>
-<p><strong>§ 2 Infos</strong><br />
-Ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfen hat und ich nützlich fand.</p>
-<p><strong>§ 3 Autor</strong><br />
+</style><title>abgehen74</title></head><body><article class="markdown-body"><h1 id="justus-berstens-csgo-repository"><a name="user-content-justus-berstens-csgo-repository" href="#justus-berstens-csgo-repository" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Justus Bersten&rsquo;s CS:GO Repository</h1>
+<p><strong>§ 1 Author</strong><br />
 <a href="http://csgo-stats.com/phecks/">Marius &ldquo;phecks&rdquo; T.</a><br />
 <a href="https://play.esea.net/users/1151692">ESEA.Profile</a></p>
-<p><strong>§ 4 Liga und Teams</strong><br />
+<p><strong>§ 2 Teams</strong><br />
 <a href="https://play.eslgaming.com/team/10764574/">ESL - Die gläserne MILF</a><br />
 <a href="asdff">Steam Group</a></p>
+<p><strong>§ 3 Infos</strong><br />
+This is my constantly updated CS:GO repository with strats, personal settings and my personal config.</p>
 <hr />
-<h3 id="taktiken"><a name="user-content-taktiken" href="#taktiken" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Taktiken</h3>
-<p>Videos und Links zu Taktiken.</p>
+<h3 id="settings-config"><a name="user-content-settings-config" href="#settings-config" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Settings &amp; Config</h3>
+<p><strong>TL.DR Version</strong><br />
+<a href="https://github.com/JustusBersten/abgehen/blob/master/valve.rc">valve.rc</a> Updated 19.01.2017</p>
+<p>Very good video to get started: <a href="https://www.youtube.com/watch?v=HDJPjDg6EsI">How to setup your PC for CS:GO</a></p>
+<h4 id="windows-10-settings"><a name="user-content-windows-10-settings" href="#windows-10-settings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Windows 10 Settings</h4>
+<ul>
+<li>Windows Sensitivity: 6/11</li>
+<li>Pointer acceleration: OFF</li>
+<li>Mouse: Steelseries Kinzu v2</li>
+<li>Mouse DPI: 400</li>
+<li>Mouse Polling Rate: 1000hz</li>
+<li>Nvidia Settings VSYNC: OFF</li>
+<li><a href="http://vibrancegui.com/">VibranceGUI by juvlarN</a> - Ingame Virbance Level 100% (Automated digital Vibrance)</li>
+<li><a href="https://www.youtube.com/watch?v=9MHe2DmjYhc">Remove XBOX DVR</a> - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.</li>
+</ul>
+<h4 id="launch-options"><a name="user-content-launch-options" href="#launch-options" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Launch Options</h4>
+<p><pre><code>-noforcemparms -noforcemaccel -novid -nojoy -threads 4 -console -tickrate 128 -refresh 144
+</code></pre><br />
+Enter launch options at <em>Steam &gt; Library &gt; Counter-Strike: Global Offensive (right-click) &gt; Properties &gt; Set Launch Options</em></p>
+<h4 id="netsettings"><a name="user-content-netsettings" href="#netsettings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Netsettings</h4>
+<p>The old times of perfectly adjusted netsettings are over (remember 1.6). There is only one standard nowadays:<br />
+<pre><code>rate &quot;128000&quot;
+cl_cmdrate &quot;128&quot;
+cl_updaterate &quot;128&quot;
+cl_interp &quot;0&quot;
+cl_interp_ratio &quot;1&quot;
+</code></pre></p>
+<h4 id="sound"><a name="user-content-sound" href="#sound" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sound</h4>
+<p>Good read to get started: <a href="https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/">Guide to Sound</a></p>
+<p><strong>IMPORTANT: DISABLE HRTF with snd_use_hrtf 0</strong></p>
+<pre><code>snd_use_hrtf &quot;0&quot;
+snd_musicvolume &quot;0&quot;
+snd_mixahead &quot;0.05&quot;
+dsp_enhance_stereo &quot;0&quot;
+windows_speaker_config &quot;1&quot;
+snd_front_headphone_position &quot;45.0&quot;
+snd_rear_headphone_position &quot;90.0&quot;
+snd_headphone_pan_exponent &quot;1.2&quot;
+snd_headphone_pan_radial_weight &quot;0.5&quot;
+</code></pre>
+
+<h4 id="video"><a name="user-content-video" href="#video" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Video</h4>
+<p>After the Wild West Simulator 2015 update, video.txt needs to be put in <em>..\Steam\userdata\<Steam3 ID>\730\local\cfg</em><br />
+<pre><code>&quot;VideoConfig&quot;
+{
+    &quot;setting.cpu_level&quot;     &quot;0&quot;
+    &quot;setting.gpu_level&quot;     &quot;0&quot;
+    &quot;setting.mat_antialias&quot;     &quot;0&quot;
+    &quot;setting.mat_aaquality&quot;     &quot;0&quot;
+    &quot;setting.mat_forceaniso&quot;        &quot;0&quot;
+    &quot;setting.mat_vsync&quot;     &quot;0&quot;
+    &quot;setting.mat_triplebuffered&quot;        &quot;0&quot;
+    &quot;setting.mat_grain_scale_override&quot;      &quot;1&quot;
+    &quot;setting.gpu_mem_level&quot;     &quot;0&quot;
+    &quot;setting.mem_level&quot;     &quot;2&quot;
+    &quot;setting.mat_queue_mode&quot;        &quot;-1&quot;
+    &quot;setting.csm_quality_level&quot;     &quot;0&quot;
+    &quot;setting.mat_software_aa_strength&quot;      &quot;0&quot;
+    &quot;setting.mat_motion_blur_enabled&quot;       &quot;0&quot;
+    &quot;setting.fullscreen&quot;        &quot;1&quot;
+    &quot;setting.defaultres&quot;        &quot;1440&quot;
+    &quot;setting.defaultresheight&quot;      &quot;1080&quot;
+    &quot;setting.aspectratiomode&quot;       &quot;0&quot;
+    &quot;setting.nowindowborder&quot;        &quot;0&quot;
+}
+</code></pre></p>
+<h4 id="jumpthrow"><a name="user-content-jumpthrow" href="#jumpthrow" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jumpthrow</h4>
+<pre><code>alias &quot;+jthrow&quot; &quot;+jump;-attack&quot;
+alias &quot;-jthrow&quot; &quot;-jump&quot;
+bind &quot;mouse3&quot; &quot;+jthrow&quot;
+</code></pre>
+
+<h4 id="simple-radar"><a name="user-content-simple-radar" href="#simple-radar" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Simple Radar</h4>
+<p>Click the picture below:<br />
+<a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a></p>
+<p>MM ✔<br />
+Faceit ✔<br />
+ESL ✔ <br />
+99Damage ✔<br />
+ESEA ✔</p>
+<pre><code>cl_radar_always_centered &quot;1&quot;
+cl_radar_scale &quot;0.35&quot;
+cl_hud_radar_scale &quot;1.15&quot;
+cl_radar_icon_scale_min &quot;1&quot;
+cl_radar_rotate &quot;1&quot;
+cl_radar_square_with_scoreboard &quot;0&quot;
+</code></pre>
+
+<hr />
+<h3 id="strats"><a name="user-content-strats" href="#strats" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Strats</h3>
+<p>Videos and links</p>
 <h4 id="basics"><a name="user-content-basics" href="#basics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Basics</h4>
 <h5 id="how-to-play-as-a-team"><a name="user-content-how-to-play-as-a-team" href="#how-to-play-as-a-team" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>How to play as a team</h5>
 <p><a href="https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/">Forming a Team</a><br />
@@ -1105,98 +1191,7 @@ Ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfe
 <p><a href="https://www.reddit.com/r/GlobalOffensive/comments/57wunx/6_pug_smokes_to_help_your_life_on_inferno/">6 Smokes</a><br />
 <a href="https://www.youtube.com/watch?v=xbNRKq45PTM">Banana Control as T</a></p>
 <hr />
-<h3 id="settings-config"><a name="user-content-settings-config" href="#settings-config" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Settings &amp; Config</h3>
-<p><strong>TL.DR Version</strong><br />
-<a href="https://github.com/JustusBersten/abgehen/blob/master/valve.rc">valve.rc</a></p>
-<p>Wichtiges für die Config. </p>
-<p>Very good video to get started: <a href="https://www.youtube.com/watch?v=HDJPjDg6EsI">How to setup your PC for CS:GO</a></p>
-<h4 id="windows-10-settings"><a name="user-content-windows-10-settings" href="#windows-10-settings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Windows 10 Settings</h4>
-<ul>
-<li>Windows Sensitivity: 6/11</li>
-<li>Zeigerbeschleunigung: Aus</li>
-<li>Mouse: Steelseries Kinzu v2</li>
-<li>Mouse DPI: 400</li>
-<li>Mouse Polling Rate: 1000hz</li>
-<li><a href="http://vibrancegui.com/">VibranceGUI by juvlarN</a> - Ingame Virbance Level 100% (Automated digital Vibrance)</li>
-</ul>
-<h4 id="netsettings"><a name="user-content-netsettings" href="#netsettings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Netsettings</h4>
-<p>Die Tage der perfekt abgestimmten Netsettings, wie man sie bei 1.6 haben musste, sind gezählt. Jetzt gibt es nur noch einen Standard.<br />
-<pre><code>rate &quot;128000&quot;
-cl_cmdrate &quot;128&quot;
-cl_updaterate &quot;128&quot;
-cl_interp &quot;0&quot;
-cl_interp_ratio &quot;1&quot;
-</code></pre></p>
-<h4 id="sound"><a name="user-content-sound" href="#sound" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sound</h4>
-<p>Good place to start: <a href="https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/">Guide to Sound</a></p>
-<p><strong>IMPORTANT: DISABLE HRTF with snd_use_hrtf 0</strong></p>
-<p>von phecks:<br />
-<pre><code>snd_use_hrtf &quot;0&quot;
-snd_musicvolume &quot;0&quot;
-snd_mixahead &quot;0.05&quot;
-dsp_enhance_stereo &quot;0&quot;
-windows_speaker_config &quot;1&quot;
-snd_front_headphone_position &quot;45.0&quot;
-snd_rear_headphone_position &quot;90.0&quot;
-snd_headphone_pan_exponent &quot;1.2&quot;
-snd_headphone_pan_radial_weight &quot;0.5&quot;
-</code></pre></p>
-<p>Audio Test Chamber Map<br />
-<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=337790613">Link to Steam Workshop</a></p>
-<h4 id="grafik"><a name="user-content-grafik" href="#grafik" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Grafik</h4>
-<pre><code>&quot;VideoConfig&quot;
-{
-    &quot;setting.cpu_level&quot;     &quot;0&quot;
-    &quot;setting.gpu_level&quot;     &quot;0&quot;
-    &quot;setting.mat_antialias&quot;     &quot;0&quot;
-    &quot;setting.mat_aaquality&quot;     &quot;0&quot;
-    &quot;setting.mat_forceaniso&quot;        &quot;0&quot;
-    &quot;setting.mat_vsync&quot;     &quot;0&quot;
-    &quot;setting.mat_triplebuffered&quot;        &quot;0&quot;
-    &quot;setting.mat_grain_scale_override&quot;      &quot;1&quot;
-    &quot;setting.gpu_mem_level&quot;     &quot;0&quot;
-    &quot;setting.mem_level&quot;     &quot;2&quot;
-    &quot;setting.mat_queue_mode&quot;        &quot;-1&quot;
-    &quot;setting.csm_quality_level&quot;     &quot;0&quot;
-    &quot;setting.mat_software_aa_strength&quot;      &quot;0&quot;
-    &quot;setting.mat_motion_blur_enabled&quot;       &quot;0&quot;
-    &quot;setting.fullscreen&quot;        &quot;1&quot;
-    &quot;setting.defaultres&quot;        &quot;1440&quot;
-    &quot;setting.defaultresheight&quot;      &quot;1080&quot;
-    &quot;setting.aspectratiomode&quot;       &quot;0&quot;
-    &quot;setting.nowindowborder&quot;        &quot;0&quot;
-}
-</code></pre>
-
-<h4 id="jumpthrow"><a name="user-content-jumpthrow" href="#jumpthrow" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jumpthrow</h4>
-<pre><code>alias &quot;+jthrow&quot; &quot;+jump;-attack&quot;
-alias &quot;-jthrow&quot; &quot;-jump&quot;
-bind &quot;mouse3&quot; &quot;+jthrow&quot;
-</code></pre>
-
-<h4 id="launch-options"><a name="user-content-launch-options" href="#launch-options" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Launch Options</h4>
-<p>von phecks<br />
-<pre><code>-noforcemparms -noforcemaccel -novid -nojoy -threads 4 -console -tickrate 128 -refresh 144
-</code></pre></p>
-<h4 id="simple-radar"><a name="user-content-simple-radar" href="#simple-radar" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Simple Radar</h4>
-<p>Click the picture below:<br />
-<a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a></p>
-<p>MM ✔<br />
-Faceit ✔<br />
-ESL ✔SS<br />
-99Damage ✔<br />
-ESEA ✔</p>
-<p>Für ein Radar, welches den Namen auch verdient, fügt man der Config noch diese Befehle hinzu:<br />
-<strong>radar settings @autoexec.cfg:</strong><br />
-<pre><code>cl_radar_always_centered &quot;1&quot;
-cl_radar_scale &quot;0.35&quot;
-cl_hud_radar_scale &quot;1.15&quot;
-cl_radar_icon_scale_min &quot;1&quot;
-cl_radar_rotate &quot;1&quot;
-cl_radar_square_with_scoreboard &quot;0&quot;
-</code></pre></p>
-<hr />
-<h3 id="kontakt"><a name="user-content-kontakt" href="#kontakt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kontakt</h3>
+<h3 id="contact"><a name="user-content-contact" href="#contact" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Contact</h3>
 <p>Mail: <a href="mailto:justusbersten@gmail.com">justusbersten@gmail.com</a><br />
 Twitter: <a href="https://twitter.com/justusbersten">@justusbersten</a></p>
 <hr /></article></body></html>
