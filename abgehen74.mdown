@@ -36,7 +36,7 @@ Very good video to get started: [How to setup your PC for CS:GO](https://www.you
 ```
 -noforcemparms -noforcemaccel -novid -nojoy -threads 4 -console -tickrate 128 -refresh 144
 ```
-Enter launch options at _Steam > Library > Counter-Strike: Global Offensive (right-click) > Properties > Set Launch Options_
+Enter launch options at `Steam > Library > Counter-Strike: Global Offensive (right-click) > Properties > Set Launch Options`
 
 
 #### Netsettings
@@ -69,7 +69,7 @@ snd_headphone_pan_radial_weight "0.5"
 
 
 #### Video
-After the Wild West Simulator 2015 update, video.txt needs to be put in _..\Steam\userdata\<Steam3 ID>\730\local\cfg_
+After the Wild West Simulator 2015 update, _video.txt_ needs to be put in `..\Steam\userdata\<Steam3 ID>\730\local\cfg`
 ```
 "VideoConfig"
 {
