@@ -1014,51 +1014,115 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-MathJax.Hub.Config({
-  config: ["MMLorHTML.js"],
-  extensions: ["tex2jax.js"],
-  jax: ["input/TeX"],
-  tex2jax: {
-    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-    processEscapes: false
-  },
-  TeX: {
-    extensions: ["AMSmath.js", "AMSsymbols.js"],
-    TagSide: "right",
-    TagIndent: ".8em",
-    MultLineWidth: "85%",
-    equationNumbers: {
-      autoNumber: "AMS",
-    },
-    unicode: {
-      fonts: "STIXGeneral,'Arial Unicode MS'"
-    }
-  },
-  showProcessingMessages: false
-});
-</script>
-<title>abgehen74</title></head><body><article class="markdown-body"><h1 id="team-abgehen"><a name="user-content-team-abgehen" href="#team-abgehen" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Team #ABGEHEN</h1>
-<h3 id="allgemeine-geschaftsbedingungen-agb"><a name="user-content-allgemeine-geschaftsbedingungen-agb" href="#allgemeine-geschaftsbedingungen-agb" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Allgemeine Geschäftsbedingungen (AGB)</h3>
-<p><strong>§ 1 Verpflichtungen</strong><br />
-Abgehen.</p>
-<p><strong>§ 2 Infos</strong><br />
-Ein Kompendium an Links zu Taktiken und Guides für CS GO. Alles was mir geholfen hat und ich nützlich fand.</p>
-<p><strong>§ 3 Autor</strong><br />
+</style><title>abgehen74</title></head><body><article class="markdown-body"><h1 id="justus-berstens-csgo-repository"><a name="user-content-justus-berstens-csgo-repository" href="#justus-berstens-csgo-repository" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Justus Bersten&rsquo;s CS:GO Repository</h1>
+<p><strong>§ 1 Author</strong><br />
 <a href="http://csgo-stats.com/phecks/">Marius &ldquo;phecks&rdquo; T.</a><br />
-ESEA</p>
-<p><strong>§ 4 Liga und Teams</strong><br />
-<a href="https://play.eslgaming.com/team/10764574/">ESL - Die gläserne MILF</a></p>
+<a href="https://play.esea.net/users/1151692">ESEA.Profile</a> <strong>inaktiv</strong><br />
+<a href="faceit.com">FACE.IT</a> <strong>inaktiv</strong></p>
+<p><strong>§ 2 Teams</strong><br />
+<a href="https://play.eslgaming.com/team/10764574/">ESL - Die gläserne MILF</a><br />
+<a href="asdff">Steam Group</a></p>
+<p><strong>§ 3 Infos</strong><br />
+This is my constantly updated CS:GO repository with strats, personal settings and my personal config.</p>
 <hr />
-<h3 id="taktiken"><a name="user-content-taktiken" href="#taktiken" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Taktiken</h3>
-<p>Videos und Links zu Taktiken.</p>
+<h3 id="settings-config"><a name="user-content-settings-config" href="#settings-config" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Settings &amp; Config</h3>
+<p><strong>TL.DR Version</strong><br />
+<a href="https://github.com/JustusBersten/abgehen/blob/master/valve.rc">valve.rc</a> Updated 19.01.2017</p>
+<p>Very good video to get started: <a href="https://www.youtube.com/watch?v=HDJPjDg6EsI">How to setup your PC for CS:GO</a></p>
+<h4 id="windows-10-settings"><a name="user-content-windows-10-settings" href="#windows-10-settings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Windows 10 Settings</h4>
+<ul>
+<li>Windows Sensitivity: 6/11</li>
+<li>Pointer acceleration: OFF</li>
+<li>Mouse: Steelseries Kinzu v2</li>
+<li>Mouse DPI: 400</li>
+<li>Mouse Polling Rate: 1000hz</li>
+<li>Nvidia Settings VSYNC: OFF</li>
+<li><a href="http://vibrancegui.com/">VibranceGUI by juvlarN</a> - Ingame Virbance Level 100% (Automated digital Vibrance)</li>
+<li><a href="https://www.youtube.com/watch?v=9MHe2DmjYhc">Remove XBOX DVR</a> - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.</li>
+</ul>
+<h4 id="launch-options"><a name="user-content-launch-options" href="#launch-options" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Launch Options</h4>
+<p><pre><code>-noforcemparms -noforcemaccel -novid -nojoy -threads 4 -console -tickrate 128 -refresh 144
+</code></pre><br />
+Enter launch options at <code>Steam &gt; Library &gt; Counter-Strike: Global Offensive (right-click) &gt; Properties &gt; Set Launch Options</code></p>
+<h4 id="netsettings"><a name="user-content-netsettings" href="#netsettings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Netsettings</h4>
+<p>The old times of perfectly adjusted netsettings are over (remember 1.6). There is only one standard nowadays:<br />
+<pre><code>rate &quot;128000&quot;
+cl_cmdrate &quot;128&quot;
+cl_updaterate &quot;128&quot;
+cl_interp &quot;0&quot;
+cl_interp_ratio &quot;1&quot;
+</code></pre></p>
+<h4 id="sound"><a name="user-content-sound" href="#sound" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sound</h4>
+<p>Good read to get started: <a href="https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/">Guide to Sound</a></p>
+<p><strong>IMPORTANT: DISABLE HRTF with snd_use_hrtf 0</strong></p>
+<pre><code>snd_use_hrtf &quot;0&quot;
+snd_musicvolume &quot;0&quot;
+snd_mixahead &quot;0.05&quot;
+dsp_enhance_stereo &quot;0&quot;
+windows_speaker_config &quot;1&quot;
+snd_front_headphone_position &quot;45.0&quot;
+snd_rear_headphone_position &quot;90.0&quot;
+snd_headphone_pan_exponent &quot;1.2&quot;
+snd_headphone_pan_radial_weight &quot;0.5&quot;
+</code></pre>
+
+<h4 id="video"><a name="user-content-video" href="#video" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Video</h4>
+<p>After the Wild West Simulator 2015 update, <em>video.txt</em> needs to be put in <code>..\Steam\userdata\&lt;Steam3 ID&gt;\730\local\cfg</code><br />
+<pre><code>&quot;VideoConfig&quot;
+{
+    &quot;setting.cpu_level&quot;     &quot;0&quot;
+    &quot;setting.gpu_level&quot;     &quot;0&quot;
+    &quot;setting.mat_antialias&quot;     &quot;0&quot;
+    &quot;setting.mat_aaquality&quot;     &quot;0&quot;
+    &quot;setting.mat_forceaniso&quot;        &quot;0&quot;
+    &quot;setting.mat_vsync&quot;     &quot;0&quot;
+    &quot;setting.mat_triplebuffered&quot;        &quot;0&quot;
+    &quot;setting.mat_grain_scale_override&quot;      &quot;1&quot;
+    &quot;setting.gpu_mem_level&quot;     &quot;0&quot;
+    &quot;setting.mem_level&quot;     &quot;2&quot;
+    &quot;setting.mat_queue_mode&quot;        &quot;-1&quot;
+    &quot;setting.csm_quality_level&quot;     &quot;0&quot;
+    &quot;setting.mat_software_aa_strength&quot;      &quot;0&quot;
+    &quot;setting.mat_motion_blur_enabled&quot;       &quot;0&quot;
+    &quot;setting.fullscreen&quot;        &quot;1&quot;
+    &quot;setting.defaultres&quot;        &quot;1440&quot;
+    &quot;setting.defaultresheight&quot;      &quot;1080&quot;
+    &quot;setting.aspectratiomode&quot;       &quot;0&quot;
+    &quot;setting.nowindowborder&quot;        &quot;0&quot;
+}
+</code></pre></p>
+<h4 id="jumpthrow"><a name="user-content-jumpthrow" href="#jumpthrow" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jumpthrow</h4>
+<pre><code>alias &quot;+jthrow&quot; &quot;+jump;-attack&quot;
+alias &quot;-jthrow&quot; &quot;-jump&quot;
+bind &quot;mouse3&quot; &quot;+jthrow&quot;
+</code></pre>
+
+<h4 id="simple-radar"><a name="user-content-simple-radar" href="#simple-radar" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Simple Radar</h4>
+<p>Click the picture below:<br />
+<a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a></p>
+<p>MM ✔<br />
+Faceit ✔<br />
+ESL ✔ <br />
+99Damage ✔<br />
+ESEA ✔</p>
+<ul>
+<li>My radar settings, but purely preference.<br />
+<pre><code>cl_radar_always_centered &quot;1&quot;
+cl_radar_scale &quot;0.35&quot;
+cl_hud_radar_scale &quot;1.15&quot;
+cl_radar_icon_scale_min &quot;1&quot;
+cl_radar_rotate &quot;1&quot;
+cl_radar_square_with_scoreboard &quot;0&quot;
+</code></pre></li>
+</ul>
+<hr />
+<h3 id="strats"><a name="user-content-strats" href="#strats" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Strats</h3>
+<p>Videos and links</p>
 <h4 id="basics"><a name="user-content-basics" href="#basics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Basics</h4>
-<h5 id="basics-on-how-to-play-as-a-team"><a name="user-content-basics-on-how-to-play-as-a-team" href="#basics-on-how-to-play-as-a-team" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Basics on how to play as a Team</h5>
-<p><a href="https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/">How to form a Team</a><br />
-<a href="linkfehlt.com">Kommunikation in Ligaspielen (by HEADSTYLE)</a> </p>
-<h5 id="terrorist-side-basics"><a name="user-content-terrorist-side-basics" href="#terrorist-side-basics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Terrorist Side Basics</h5>
+<h5 id="how-to-play-as-a-team"><a name="user-content-how-to-play-as-a-team" href="#how-to-play-as-a-team" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>How to play as a team</h5>
+<p><a href="https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/">Forming a Team</a><br />
+<a href="https://github.com/JustusBersten/abgehen/blob/master/headstyle_kommunikation.txt">Kommunikation in Ligaspielen (by HEADSTYLE)</a></p>
+<h5 id="how-to-play-terrorist-side"><a name="user-content-how-to-play-terrorist-side" href="#how-to-play-terrorist-side" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>How to play terrorist side</h5>
 <p><a href="https://www.reddit.com/r/GlobalOffensive/comments/417kah/csgo_strategy_basics_for_t_side/">Strategy for every T-side default</a><br />
 <a href="https://www.reddit.com/r/GlobalOffensive/comments/41zbou/guide_to_tside_everyones_invited/">More Basics on T-side</a><br />
 <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=551826753">Tactical uncommon Bomb plants</a></p>
@@ -1072,101 +1136,80 @@ ESEA</p>
 </ul>
 <h5 id="aiming"><a name="user-content-aiming" href="#aiming" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Aiming</h5>
 <p><a href="https://www.youtube.com/watch?v=U9mvXfnY8wU">Crucial Crosshair Placement</a><br />
-<a href="https://www.youtube.com/watch?v=DfMvtrc8Ntk">How to play the inside lane</a></p>
+<a href="https://www.youtube.com/watch?v=DfMvtrc8Ntk">How to play the inside lane</a><br />
+<a href="https://www.youtube.com/watch?v=OfLgNu11EZA">launders explains crosshair placement</a><br />
+<a href="https://www.reddit.com/r/GlobalOffensive/comments/68ywrb/in_depth_guide_on_improving_for_all_levels_of/">How to improve in CS:GO (in depth)</a></p>
 <h5 id="movement"><a name="user-content-movement" href="#movement" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Movement</h5>
 <p><a href="https://www.youtube.com/watch?v=yIpURIKhJSs">Bunny Hop 2016</a><br />
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?l=german&amp;id=314892291">Jump Training Map</a></p>
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?l=german&amp;id=314892291">Jump Training Map</a><br />
+<a href="https://www.youtube.com/watch?v=9dJ34sUYXyA">Jump Traing Walkthrough (outdated)</a></p>
 <h5 id="tools"><a name="user-content-tools" href="#tools" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Tools</h5>
-<p><a href="https://github.com/MrHayato/VacBanChecker">VAC Checker</a></p>
+<p><a href="https://github.com/MrHayato/VacBanChecker">VAC Checker</a><br />
+<a href="https://csgostats.gg/">Match History Checker</a></p>
 <hr />
 <h4 id="maps"><a name="user-content-maps" href="#maps" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Maps</h4>
+<p><a href="https://www.reddit.com/r/GlobalOffensive/comments/5t17l0/i_did_nearly_250_smoke_videos/">Very good compilation of 250 smokes for various maps</a></p>
 <h5 id="cache"><a name="user-content-cache" href="#cache" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Cache</h5>
-<p><a href="https://www.youtube.com/watch?v=i3_WI2OxwyM">Taking A Site</a><br />
+<p><a href="http://team-dignitas.net/articles/blogs/CSGO/8531/default-strategies-on-t-side-team-envyus-on-de_cache">T side Default</a><br />
+<a href="https://www.youtube.com/watch?v=g9WfIXWgU5s">T Pistol B Strat</a><br />
+<a href="https://www.youtube.com/watch?v=i3_WI2OxwyM">Taking A Site</a><br />
 <a href="https://www.youtube.com/watch?v=WGaZcqpnGE8">How to take B</a><br />
 <a href="https://www.youtube.com/watch?v=O7Y6umjCnRc">B CT Smoke from outside</a><br />
 <a href="https://www.youtube.com/watch?v=rqZTBNC0NKA">A Site Smoke Quad</a><br />
 <a href="https://www.youtube.com/watch?v=PioblYcMwWc">Wallbang Whitebox</a><br />
 <a href="https://www.youtube.com/watch?v=85z8EQdMuQE">Whitebox Smoke</a><br />
 <a href="https://www.youtube.com/watch?v=E9d3b-H3o-g">B site strat very good</a><br />
-<a href="https://www.youtube.com/watch?v=_4tUZPpSWh0">10 Self Pop Flashes on Cache</a></p>
+<a href="https://www.youtube.com/watch?v=_4tUZPpSWh0">10 Self Pop Flashes on Cache</a><br />
+<a href="http://imgur.com/a/hIydX">70+ tips and tricks</a><br />
+<a href="https://www.youtube.com/watch?v=O4yfLnI_WBU">A Site Retake Tips by Adren</a><br />
+<a href="https://www.youtube.com/watch?v=sAMmjSbjWyg">Solo Hold or re-take A from Highway</a><br />
+<a href="https://www.youtube.com/watch?v=Z_znfRcdna8">Solo Take A from Squeaky</a><br />
+<a href="https://www.youtube.com/watch?v=0kjipn9pWOI&amp;feature=youtu.be">How to pull doors open</a></p>
 <h5 id="dust2"><a name="user-content-dust2" href="#dust2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Dust2</h5>
 <p><a href="https://www.youtube.com/watch?v=j8qHbFkzkOU">Default Vid by Adren</a><br />
 <a href="https://docs.google.com/presentation/d/1Y_F1F5OBfvsRHCD-nFQYdapCqkItX1ixpj5-YfahBOA/preview?slide=id.p">Dust2 Default Slides</a><br />
-<a href="https://www.youtube.com/watch?v=BYWgzHGY0xI">TrilluXe on Long Corner Smoke and XBOX smoke</a><br />
+<a href="https://www.youtube.com/watch?v=DvdFGv3JiOU">PIZZA NADE - BEST NADE</a><br />
 <a href="https://youtu.be/FkZ3ECtzSuA?t=43">Easy XBOX Smoke for Default</a><br />
+<a href="https://www.youtube.com/watch?v=BYWgzHGY0xI">TrilluXe on Long Corner Smoke and XBOX smoke</a><br />
+<a href="https://www.youtube.com/watch?v=-0IRGw5WETQ">5 Pistol Strats</a><br />
 <a href="https://www.youtube.com/watch?v=9LkmWXSpr14">Rush B by Adren</a><br />
 <a href="https://www.youtube.com/watch?v=lYCBinRyAyQ">Rush Cat by Adren</a><br />
 <a href="https://www.youtube.com/watch?v=FiN9ZFpWFS0">Rush Long by Adren</a><br />
 <a href="https://www.youtube.com/watch?v=bH-W99HtFQE&amp;">Long A Corner Smoke</a><br />
-<a href="https://www.youtube.com/watch?v=CKx0n-fIg9c">Dust2 Solo Strategies</a></p>
+<a href="https://www.youtube.com/watch?v=CKx0n-fIg9c">Dust2 Solo Strategies as T</a><br />
+<a href="https://youtu.be/mIFKHmg96-g?t=44">PERFECT long flash</a><br />
+<a href="https://www.youtube.com/watch?v=bJ9Ui3eEfM0">No Bullshit Tips for DD2</a><br />
+<a href="https://www.youtube.com/watch?v=1agDWlnkPJw">Must known Smokes for DD2</a></p>
 <h5 id="mirage"><a name="user-content-mirage" href="#mirage" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mirage</h5>
 <p><a href="https://www.youtube.com/watch?v=0NQjJcqeDl8">How to throw Smokes on A</a><br />
 <a href="https://www.youtube.com/watch?v=hr0Q2xz2d18">Smokes A Execute done right</a><br />
 <a href="https://www.youtube.com/watch?v=u_V8l58XsR4">B Split Execute</a><br />
 <a href="https://www.youtube.com/watch?v=racQWESZQBc">B Site Smokes</a><br />
+<a href="http://imgur.com/a/pOz7Z">40+ tips and tricks</a><br />
 <a href="https://www.youtube.com/watch?v=QTHNvldqOjQ">Window Smoke (64 tick)</a><br />
-<a href="https://www.youtube.com/watch?v=Tuk64GWXUao">Window Smoke (128 tick)</a></p>
+<a href="https://www.youtube.com/watch?v=Tuk64GWXUao">Window Smoke (128 tick)</a><br />
+<a href="https://www.youtube.com/watch?v=PMIjDEpZ_cw">NO BS Tips Mirage</a><br />
+<a href="https://www.youtube.com/watch?v=g77S5mbeAsM">Fake Jungle Smoke for Fake A Push</a></p>
 <h5 id="cbblestone"><a name="user-content-cbblestone" href="#cbblestone" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Cbblestone</h5>
-<p><a href="https://www.youtube.com/watch?v=fvt0bnLuB1E">Smokes and Flashes</a></p>
+<p><a href="https://www.youtube.com/watch?v=fvt0bnLuB1E">Smokes and Flashes</a><br />
+<a href="https://www.youtube.com/watch?v=BaKM816ABv8">More Smokes and Mollys (updated)</a><br />
+<a href="https://www.youtube.com/watch?v=zdHArZyvzfM">Long B Smoke from CT Spawn (fast)</a></p>
 <h5 id="train"><a name="user-content-train" href="#train" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Train</h5>
-<p><a href="https://www.youtube.com/watch?v=KGy66DEZWT4">Controlling Ivy</a><br />
-<a href="https://www.youtube.com/watch?v=R41GBUaMqkQ">T-side Pistol</a><br />
+<p><a href="https://www.youtube.com/watch?t=40&amp;v=bwzFAYgUJZU">Beginner Guide to Train (40min)</a><br />
 <a href="https://www.youtube.com/watch?v=nWfqVWVa9Og">Basic Smokes on Train</a><br />
-<a href="https://www.youtube.com/watch?t=40&amp;v=bwzFAYgUJZU">Beginner Guide to Train (40min)</a></p>
+<a href="https://www.youtube.com/watch?v=KGy66DEZWT4">Controlling Ivy</a><br />
+<a href="https://www.youtube.com/watch?v=R41GBUaMqkQ">T-side Pistol</a></p>
 <h5 id="overpass"><a name="user-content-overpass" href="#overpass" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Overpass</h5>
-<p><a href="https://www.youtube.com/watch?v=eq0yfdcvKl4">Monster Strategy</a><br />
-<a href="https://www.youtube.com/watch?v=PNCl_u-lx24">4 important Smokes on de_Overpass</a></p>
+<p><a href="https://www.youtube.com/watch?v=PNCl_u-lx24">4 important Smokes on de_Overpass</a><br />
+<a href="https://www.youtube.com/watch?v=eq0yfdcvKl4">Monster Strategy</a><br />
+<a href="https://www.youtube.com/watch?v=tcPH3yZDKbs">Smoke Barrels fast from T Spawn</a></p>
 <h5 id="infernew"><a name="user-content-infernew" href="#infernew" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Infernew</h5>
-<p><a href="https://www.reddit.com/r/GlobalOffensive/comments/57wunx/6_pug_smokes_to_help_your_life_on_inferno/">6 Smokes</a></p>
+<p><a href="https://www.reddit.com/r/GlobalOffensive/comments/57wunx/6_pug_smokes_to_help_your_life_on_inferno/">6 Smokes</a><br />
+<a href="https://www.youtube.com/watch?v=xbNRKq45PTM">Banana Control as T</a><br />
+<a href="https://www.youtube.com/watch?v=Kednl8Ugato">NO BS Tips Infernew</a><br />
+<a href="https://www.youtube.com/watch?v=Ivn2nGP6C70">Adren: 6 most important smokes on infernew</a></p>
 <hr />
-<h3 id="config"><a name="user-content-config" href="#config" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Config</h3>
-<p>Wichtiges für die Config</p>
-<h4 id="netsettings"><a name="user-content-netsettings" href="#netsettings" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Netsettings</h4>
-<p>Die Tage der perfekt abgestimmten Netsettings, wie man sie bei 1.6 haben musste, sind gezählt. Jetzt gibt es nur noch einen Standard.<br />
-<pre><code>rate &quot;128000&quot;
-cl_cmdrate &quot;128&quot;
-cl_updaterate &quot;128&quot;
-cl_interp &quot;0&quot;
-cl_interp_ratio &quot;1&quot;
-</code></pre></p>
-<h4 id="sound-outdated-since-fucking-htrf-update"><a name="user-content-sound-outdated-since-fucking-htrf-update" href="#sound-outdated-since-fucking-htrf-update" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Sound (outdated since fucking HTRF update)</h4>
-<p><a href="https://www.reddit.com/r/GlobalOffensive/comments/3zqtvm/improved_csgo_sound_why_the_popular_settings_suck/">Guide to Sound</a></p>
-<p><strong>DISABLE HRTF with snd_use_hrtf 0</strong></p>
-<p>von phecks:<br />
-<pre><code>snd_use_hrtf &quot;0&quot;
-snd_mixahead &quot;0.05&quot;
-dsp_enhance_stereo &quot;0&quot;
-windows_speaker_config &quot;1&quot;
-snd_front_headphone_position &quot;45.0&quot;
-snd_rear_headphone_position &quot;90.0&quot;
-snd_headphone_pan_exponent &quot;1.2&quot;
-snd_headphone_pan_radial_weight &quot;0.5&quot;
-</code></pre></p>
-<h4 id="jumpthrow"><a name="user-content-jumpthrow" href="#jumpthrow" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Jumpthrow</h4>
-<pre><code>alias &quot;+jthrow&quot; &quot;+jump;-attack&quot;
-alias &quot;-jthrow&quot; &quot;-jump&quot;
-bind &quot;mouse3&quot; &quot;+jthrow&quot;
-</code></pre>
-
-<h4 id="launch-options"><a name="user-content-launch-options" href="#launch-options" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Launch Options</h4>
-<p>von phecks<br />
-<pre><code>-noforcemparms -noforcemaccel -novid -console  -32bit -dxlevel 90 -refresh 120  -nod3d9ex -tickrate 128
-</code></pre></p>
-<h4 id="simple-radar"><a name="user-content-simple-radar" href="#simple-radar" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Simple Radar</h4>
-<p><a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a><br />
-MM ✔<br />
-Faceit ✔<br />
-ESL ✔<br />
-99Damage ✔<br />
-ESEA ✔</p>
-<p>Für ein Radar, welches den Namen auch verdient, fügt man der Config noch diese Befehle hinzu:<br />
-<pre><code>cl_hud_radar_scale &quot;1.15&quot;
-cl_radar_rotate &quot;1&quot;
-cl_radar_scale &quot;0.35&quot; 
-cl_radar_square_with_scoreboard &quot;0&quot;
-cl_teamid_overhead_name_alpha &quot;255&quot;
-</code></pre></p>
-<hr />
-<h3 id="kontakt"><a name="user-content-kontakt" href="#kontakt" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kontakt</h3>
-<p>Mail: <a href="mailto:justusbersten@gmail.com">justusbersten@gmail.com</a></p>
+<h3 id="contact"><a name="user-content-contact" href="#contact" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Contact</h3>
+<p>Mail: <a href="mailto:justusbersten@gmail.com">justusbersten@gmail.com</a><br />
+Twitter: <a href="https://twitter.com/justusbersten">@justusbersten</a></p>
 <hr /></article></body></html>
