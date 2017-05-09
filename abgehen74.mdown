@@ -2,15 +2,15 @@ Justus Bersten's CS:GO Repository
 ===
 
 **§ 1 Author**
-[Marius "phecks" T.](http://csgo-stats.com/phecks/)
+[Marius "phecks" T.](http://steamcommunity.com/id/phecks/)
 [ESEA.Profile](https://play.esea.net/users/1151692) **inaktiv**
 [FACE.IT](faceit.com) **inaktiv**
-
+<!-- 
 **§ 2 Teams**
 [ESL - Die gläserne MILF](https://play.eslgaming.com/team/10764574/)
-[Steam Group](asdff)
+[Steam Group](asdff) -->
 
-**§ 3 Infos**
+**§ 2 Infos**
 This is my constantly updated CS:GO repository with strats, personal settings and my personal config.
 
 ---
@@ -71,6 +71,7 @@ snd_headphone_pan_radial_weight "0.5"
 
 #### Video
 After the Wild West Simulator 2015 update, _video.txt_ needs to be put in `..\Steam\userdata\<Steam3 ID>\730\local\cfg`
+
 ```
 "VideoConfig"
 {
@@ -117,7 +118,7 @@ ESL ✔
 ESEA ✔
 
 
-- My radar settings, but purely preference.
+- Personal radar settings, but purely preference.
 ```
 cl_radar_always_centered "1"
 cl_radar_scale "0.35"
@@ -132,7 +133,7 @@ cl_radar_square_with_scoreboard "0"
 
 
 ### Strats
-Videos and links
+Videos and Links
 
 #### Basics
 
@@ -156,7 +157,8 @@ Pistol Round Basics:
 [Crucial Crosshair Placement](https://www.youtube.com/watch?v=U9mvXfnY8wU)
 [How to play the inside lane](https://www.youtube.com/watch?v=DfMvtrc8Ntk)
 [launders explains crosshair placement](https://www.youtube.com/watch?v=OfLgNu11EZA)
-[How to improve in CS:GO (in depth)](https://www.reddit.com/r/GlobalOffensive/comments/68ywrb/in_depth_guide_on_improving_for_all_levels_of/)
+[How to improve in CS:GO (in depth Guide)](https://www.reddit.com/r/GlobalOffensive/comments/68ywrb/in_depth_guide_on_improving_for_all_levels_of/)
+[n0thing on how to spray](https://clips.twitch.tv/MistyEasyWasabiFutureMan)
 
 #####  Movement
 [Bunny Hop 2016](https://www.youtube.com/watch?v=yIpURIKhJSs)
@@ -192,6 +194,7 @@ Pistol Round Basics:
 [Solo Hold or re-take A from Highway](https://www.youtube.com/watch?v=sAMmjSbjWyg)
 [Solo Take A from Squeaky](https://www.youtube.com/watch?v=Z_znfRcdna8)
 [How to pull doors open](https://www.youtube.com/watch?v=0kjipn9pWOI&feature=youtu.be)
+[Holding B as CT](https://www.youtube.com/watch?v=hypdmiiPdR8)
 
 ##### Dust2
 [Default Vid by Adren](https://www.youtube.com/watch?v=j8qHbFkzkOU)
