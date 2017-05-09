@@ -30,7 +30,7 @@ Very good video to get started: [How to setup your PC for CS:GO](https://www.you
 - Mouse Polling Rate: 1000hz
 - Nvidia Settings VSYNC: OFF
 - [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Virbance Level 100% (Automated digital Vibrance)
-- [Remove XBOX DVR](https://www.youtube.com/watch?v=9MHe2DmjYhc) - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.
+- [Remove XBOX DVR](https://www.youtube.com/watch?v=9MHe2DmjYhc) - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.git  
 
 
 #### Launch Options
