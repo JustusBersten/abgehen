@@ -18,7 +18,7 @@ This is my constantly updated CS:GO repository with strats, personal settings an
 ### Settings & Config
 
 **TL.DR Version**
-[valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) Updated 19.01.2017
+[valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) Updated 10.05.2017
 
 Very good video to get started: [How to setup your PC for CS:GO](https://www.youtube.com/watch?v=HDJPjDg6EsI)
 
@@ -111,12 +111,6 @@ bind "mouse3" "+jthrow"
 Click the picture below:
 <a href="http://www.simpleradar.com/"><img src="http://www.simpleradar.com/asdf.png" title="Download Simple Radar" style="width: 250px;"/></a>
 
-MM ✔
-Faceit ✔
-ESL ✔ 
-99Damage ✔
-ESEA ✔
-
 
 - Personal radar settings, but purely preference.
 ```
@@ -140,6 +134,8 @@ Videos and Links
 ##### How to play as a team
 [Forming a Team](https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/)
 [Kommunikation in Ligaspielen (by HEADSTYLE)](https://github.com/JustusBersten/abgehen/blob/master/headstyle_kommunikation.txt)
+[How to become a InGame Leader by gatrcs](https://www.reddit.com/r/GlobalOffensive/comments/6ajd0a/beginners_guide_to_becoming_an_in_game_leader_pt1/)
+
 
 ##### How to play terrorist side
 [Strategy for every T-side default](https://www.reddit.com/r/GlobalOffensive/comments/417kah/csgo_strategy_basics_for_t_side/)
@@ -157,7 +153,7 @@ Pistol Round Basics:
 [Crucial Crosshair Placement](https://www.youtube.com/watch?v=U9mvXfnY8wU)
 [How to play the inside lane](https://www.youtube.com/watch?v=DfMvtrc8Ntk)
 [launders explains crosshair placement](https://www.youtube.com/watch?v=OfLgNu11EZA)
-[How to improve in CS:GO (in depth Guide)](https://www.reddit.com/r/GlobalOffensive/comments/68ywrb/in_depth_guide_on_improving_for_all_levels_of/)
+[How to improve in CS:GO (in depth Guide) by gatrcs](https://www.reddit.com/r/GlobalOffensive/comments/68ywrb/in_depth_guide_on_improving_for_all_levels_of/)
 [n0thing on how to spray](https://clips.twitch.tv/MistyEasyWasabiFutureMan)
 
 #####  Movement
@@ -193,6 +189,7 @@ Pistol Round Basics:
 [A Site Retake Tips by Adren](https://www.youtube.com/watch?v=O4yfLnI_WBU)
 [Solo Hold or re-take A from Highway](https://www.youtube.com/watch?v=sAMmjSbjWyg)
 [Solo Take A from Squeaky](https://www.youtube.com/watch?v=Z_znfRcdna8)
+[Solo Take Mid as T](https://www.youtube.com/watch?v=XvIxQSZrxz4)
 [How to pull doors open](https://www.youtube.com/watch?v=0kjipn9pWOI&feature=youtu.be)
 [Holding B as CT](https://www.youtube.com/watch?v=hypdmiiPdR8)
 
@@ -223,6 +220,7 @@ Pistol Round Basics:
 [Window Smoke (128 tick)](https://www.youtube.com/watch?v=Tuk64GWXUao)
 [NO BS Tips Mirage](https://www.youtube.com/watch?v=PMIjDEpZ_cw)
 [Fake Jungle Smoke for Fake A Push](https://www.youtube.com/watch?v=g77S5mbeAsM)
+[Fake CT Smoke from Aps](https://gfycat.com/VacantAchingAmbushbug)
 
 
 ##### Cbblestone
