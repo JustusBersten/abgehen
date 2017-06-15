@@ -18,7 +18,11 @@ This is my constantly updated CS:GO repository with strats, personal settings an
 ### Settings & Config
 
 **TL.DR Version**
-[valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) Updated 10.05.2017
+Updated 10.05.2017
+[valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) 
+
+<!-- **How to install:**
+Save valve.rc to `..\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg` and mark it **read only**. Delete all content in your config.cfg and make it **read only**. Open CS:GO and exec valve.rc in console if needed. -->
 
 Very good video to get started: [How to setup your PC for CS:GO](https://www.youtube.com/watch?v=HDJPjDg6EsI)
 
@@ -123,7 +127,7 @@ cl_radar_square_with_scoreboard "0"
 ```
 
 
- ---
+---
 
 
 ### Strats
@@ -160,6 +164,7 @@ Pistol Round Basics:
 [Bunny Hop 2016](https://www.youtube.com/watch?v=yIpURIKhJSs)
 [Jump Training Map](https://steamcommunity.com/sharedfiles/filedetails/?l=german&id=314892291)
 [Jump Traing Walkthrough (outdated)](https://www.youtube.com/watch?v=9dJ34sUYXyA)
+[Launders' Jump School: Long B to tree on Cobble](https://www.youtube.com/watch?v=Zhg2koC94Gg)
 
 #####  Tools
 [VAC Checker](https://github.com/MrHayato/VacBanChecker)
@@ -192,6 +197,9 @@ Pistol Round Basics:
 [Solo Take Mid as T](https://www.youtube.com/watch?v=XvIxQSZrxz4)
 [How to pull doors open](https://www.youtube.com/watch?v=0kjipn9pWOI&feature=youtu.be)
 [Holding B as CT](https://www.youtube.com/watch?v=hypdmiiPdR8)
+[Easy Truck Smoke from Mid (128tick)](https://www.youtube.com/watch?v=gIC-uWvVCjc)
+[Re-Smoke Main (many variations)](https://www.youtube.com/watch?v=9-082XlQHlE)
+
 
 ##### Dust2
 [Default Vid by Adren](https://www.youtube.com/watch?v=j8qHbFkzkOU)
@@ -221,12 +229,15 @@ Pistol Round Basics:
 [NO BS Tips Mirage](https://www.youtube.com/watch?v=PMIjDEpZ_cw)
 [Fake Jungle Smoke for Fake A Push](https://www.youtube.com/watch?v=g77S5mbeAsM)
 [Fake CT Smoke from Aps](https://gfycat.com/VacantAchingAmbushbug)
+[All important smokes from tetris](https://www.youtube.com/watch?v=5ZxqyDYeyT0)
 
 
 ##### Cbblestone
 [Smokes and Flashes](https://www.youtube.com/watch?v=fvt0bnLuB1E)
 [More Smokes and Mollys (updated)](https://www.youtube.com/watch?v=BaKM816ABv8)
 [Long B Smoke from CT Spawn (fast)](https://www.youtube.com/watch?v=zdHArZyvzfM)
+[Fake Smoke to B](https://gfycat.com/WhichNarrowIndianspinyloach)
+
 
 ##### Train
 [Beginner Guide to Train (40min)](https://www.youtube.com/watch?t=40&v=bwzFAYgUJZU)
@@ -240,6 +251,7 @@ Pistol Round Basics:
 [Monster Strategy](https://www.youtube.com/watch?v=eq0yfdcvKl4)
 [Smoke Barrels fast from T Spawn](https://www.youtube.com/watch?v=tcPH3yZDKbs)
 [Gulli (Short) Smoke](https://gfycat.com/GlassHighlevelAmericanbadger)
+
 
 ##### Infernew
 [6 Smokes](https://www.reddit.com/r/GlobalOffensive/comments/57wunx/6_pug_smokes_to_help_your_life_on_inferno/)
