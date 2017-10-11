@@ -1,32 +1,33 @@
-Justus Bersten's CS:GO Repository
+---
+format: complete
+date: October 2017
+title: JB CS:GO Compendium
+---
+
+
+Justus Bersten's CS:GO Compendium
 ===
 
-**§ 1 Author**
-[Marius "phecks" T.](http://steamcommunity.com/id/phecks/)
-[ESEA.Profile](https://play.esea.net/users/1151692) **inaktiv**
-[FACE.IT](faceit.com) **inaktiv**
-<!-- 
-**§ 2 Teams**
-[ESL - Die gläserne MILF](https://play.eslgaming.com/team/10764574/)
-[Steam Group](asdff) -->
-
-**§ 2 Infos**
+## Info
 This is my constantly updated CS:GO repository with strats, personal settings and my personal config.
+
+## Author
+[STEAM](http://steamcommunity.com/id/phecks/)
+[FACE.IT](faceit.com) **inaktiv**
+[ESEA.Profile](https://play.esea.net/users/1151692) **inaktiv**
 
 ---
 
-### Settings & Config
+## Settings & Config
 
-**TL.DR Version**
-[valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) 
-Updated 10.05.2017
 
-<!-- **How to install:**
-Save valve.rc to `..\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg` and mark it **read only**. Delete all content in your config.cfg and make it **read only**. Open CS:GO and exec valve.rc in console if needed. -->
+#### tl;dr version (updated May 2017)
+Download config [valve.rc](https://github.com/JustusBersten/abgehen/blob/master/cfg/valve.rc) 
 
-Very good video to get started: [How to setup your PC for CS:GO](https://www.youtube.com/watch?v=HDJPjDg6EsI)
 
 #### Windows 10 Settings
+Very good video to get started: [How to setup your PC for CS:GO](https://www.youtube.com/watch?v=HDJPjDg6EsI)
+
 - Windows Sensitivity: 6/11
 - Pointer acceleration: OFF
 - Mouse: Steelseries Kinzu v2
@@ -35,7 +36,6 @@ Very good video to get started: [How to setup your PC for CS:GO](https://www.you
 - Nvidia Settings VSYNC: OFF
 - [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Virbance Level 100% (Automated digital Vibrance)
 - [Remove XBOX DVR](https://www.youtube.com/watch?v=9MHe2DmjYhc) - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.git  
-
 
 #### Launch Options
 ```
