@@ -162,7 +162,7 @@ Pistol Round Basics:
 [n0thing on how to spray](https://clips.twitch.tv/MistyEasyWasabiFutureMan)
 
 #####  Movement
-[Bunny Hop 2016](https://www.youtube.com/watch?v=yIpURIKhJSs)
+[Bunny Hop 2016 onward](https://www.youtube.com/watch?v=yIpURIKhJSs)
 [Jump Training Map](https://steamcommunity.com/sharedfiles/filedetails/?l=german&id=314892291)
 [Jump Traing Walkthrough (outdated)](https://www.youtube.com/watch?v=9dJ34sUYXyA)
 [Launders' Jump School: Long B to tree on Cobble](https://www.youtube.com/watch?v=Zhg2koC94Gg)
