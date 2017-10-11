@@ -35,7 +35,8 @@ Very good video to get started: [How to setup your PC for CS:GO](https://www.you
 - Mouse Polling Rate: 1000hz
 - Nvidia Settings VSYNC: OFF
 - [VibranceGUI by juvlarN](http://vibrancegui.com/) - Ingame Virbance Level 100% (Automated digital Vibrance)
-- [Remove XBOX DVR](https://www.youtube.com/watch?v=9MHe2DmjYhc) - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap.git  
+- [Remove XBOX DVR](https://www.youtube.com/watch?v=9MHe2DmjYhc) - Windows 10 Anniversary Update forced CS:GO to run at 30 FPS max. Remove XBOX DVR asap  
+
 
 #### Launch Options
 ```
@@ -74,7 +75,7 @@ snd_headphone_pan_radial_weight "0.5"
 
 
 #### Video
-After the Wild West Simulator 2015 update, _video.txt_ needs to be put in `..\Steam\userdata\<Steam3 ID>\730\local\cfg`
+After the Wild West Simulator 2015 update, [_video.txt_](https://github.com/JustusBersten/abgehen/blob/master/cfg/video.txt) needs to be put in `..\Steam\userdata\<Steam3 ID>\730\local\cfg`
 
 ```
 "VideoConfig"
