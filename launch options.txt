@@ -1,1 +1,0 @@
--noforcemparms -noforcemaccel -novid -nojoy -threads 4 -high -console -refresh 144  -tickrate 128

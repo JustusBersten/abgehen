@@ -18,8 +18,8 @@ This is my constantly updated CS:GO repository with strats, personal settings an
 ### Settings & Config
 
 **TL.DR Version**
-Updated 10.05.2017
 [valve.rc](https://github.com/JustusBersten/abgehen/blob/master/valve.rc) 
+Updated 10.05.2017
 
 <!-- **How to install:**
 Save valve.rc to `..\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg` and mark it **read only**. Delete all content in your config.cfg and make it **read only**. Open CS:GO and exec valve.rc in console if needed. -->
@@ -199,7 +199,8 @@ Pistol Round Basics:
 [Holding B as CT](https://www.youtube.com/watch?v=hypdmiiPdR8)
 [Easy Truck Smoke from Mid (128tick)](https://www.youtube.com/watch?v=gIC-uWvVCjc)
 [Re-Smoke Main (many variations)](https://www.youtube.com/watch?v=9-082XlQHlE)
-
+[6 ways to molly Boost](https://www.youtube.com/watch?v=BEcH_5aTC3s)
+[3 Mollys for B site (from sunroom)](https://www.youtube.com/watch?v=5ReryZdHxRc)
 
 ##### Dust2
 [Default Vid by Adren](https://www.youtube.com/watch?v=j8qHbFkzkOU)
@@ -224,13 +225,14 @@ Pistol Round Basics:
 [B Split Execute](https://www.youtube.com/watch?v=u_V8l58XsR4)
 [B Site Smokes](https://www.youtube.com/watch?v=racQWESZQBc)
 [40+ tips and tricks](http://imgur.com/a/pOz7Z)
+[C9 Force-Buy strat](https://www.youtube.com/watch?v=gpmgDm2b_kU)
 [Window Smoke (64 tick)](https://www.youtube.com/watch?v=QTHNvldqOjQ)
 [Window Smoke (128 tick)](https://www.youtube.com/watch?v=Tuk64GWXUao)
 [NO BS Tips Mirage](https://www.youtube.com/watch?v=PMIjDEpZ_cw)
 [Fake Jungle Smoke for Fake A Push](https://www.youtube.com/watch?v=g77S5mbeAsM)
 [Fake CT Smoke from Aps](https://gfycat.com/VacantAchingAmbushbug)
 [All important smokes from tetris](https://www.youtube.com/watch?v=5ZxqyDYeyT0)
-
+[Resmoke A Ramp from anywhere](https://www.youtube.com/watch?v=ng3WhGvpapE)
 
 ##### Cbblestone
 [Smokes and Flashes](https://www.youtube.com/watch?v=fvt0bnLuB1E)
