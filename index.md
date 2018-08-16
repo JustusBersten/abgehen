@@ -1,6 +1,6 @@
 ---
 format: complete
-date: October 2017
+date: August 2018
 title: JB CS:GO Compendium
 ---
 
@@ -21,8 +21,23 @@ This is my constantly updated CS:GO repository with strats, personal settings an
 ## Settings & Config
 
 
-#### tl;dr version (updated May 2017)
-Download config [valve.rc](https://github.com/JustusBersten/abgehen/blob/master/cfg/valve.rc) 
+### TL;DR version (updated May 2017)
+Download config [valve.rc](https://raw.githubusercontent.com/JustusBersten/abgehen/master/cfg/valve.rc)
+<!-- Download config [valve.rc](https://github.com/JustusBersten/abgehen/blob/master/cfg/valve.rc)  -->
+
+
+#### How to Install
+1. Navigate to: `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
+2. Open `Config.cfg` and ***DELETE*** all content.
+3. Save the empty file and make it ***READ ONLY***
+4. Create a new .txt file and name it `valve.rc`
+5. Open the file with your favourite text editor.
+6. Click the Link above or [HERE](https://raw.githubusercontent.com/JustusBersten/abgehen/master/cfg/valve.rc). This opens my config.
+7. Select all and copy&paste it to your own `valve.rc`
+    - *Optional:* Make this file ***READ ONLY*** too. (I am not sure if this is a must or optional. Sometimes CS:GO F***S YOU OVER AND OVERWRITES ALL YOUR CONFIG FOR NO REASON).
+8. Start the game. Open Console. It should look like this (showing my echo message if successful):
+ ____
+![console](https://cdn.discordapp.com/attachments/206373319925039104/479675387803336705/unknown.png)
 
 
 #### Windows 10 Settings
@@ -138,7 +153,7 @@ Videos and Links
 
 ##### How to play as a team
 [Forming a Team](https://www.reddit.com/r/GlobalOffensive/comments/3n29th/csgo_quick_how_to_form_a_team/)
-[Kommunikation in Ligaspielen (by HEADSTYLE)](https://github.com/JustusBersten/abgehen/blob/master/headstyle_kommunikation.txt)
+[Kommunikation in Ligaspielen (by HEADSTYLE)](./data/headstyle_kommunikation.txt)
 [How to become a InGame Leader by gatrcs](https://www.reddit.com/r/GlobalOffensive/comments/6ajd0a/beginners_guide_to_becoming_an_in_game_leader_pt1/)
 
 
@@ -203,7 +218,7 @@ Pistol Round Basics:
 [6 ways to molly Boost](https://www.youtube.com/watch?v=BEcH_5aTC3s)
 [3 Mollys for B site (from sunroom)](https://www.youtube.com/watch?v=5ReryZdHxRc)
 
-##### Dust2
+##### Dust2 (old version)
 [Default Vid by Adren](https://www.youtube.com/watch?v=j8qHbFkzkOU)
 [Dust2 Default Slides](https://docs.google.com/presentation/d/1Y_F1F5OBfvsRHCD-nFQYdapCqkItX1ixpj5-YfahBOA/preview?slide=id.p)
 [PIZZA NADE - BEST NADE](https://www.youtube.com/watch?v=DvdFGv3JiOU)
