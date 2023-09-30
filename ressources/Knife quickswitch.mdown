@@ -5,7 +5,3 @@ alias +knife slot3; alias -knife lastinv; bind Q +knife;
 *Upon pressing Q you will switch to knife and back again, this is
 the absolute fastest way by far. It's impossible to go faster than
 that:*
-
-
-
-evtl neues skript @ CS:GO
