@@ -1,0 +1,3 @@
+red	400dpi
+ingame	0.65
+
