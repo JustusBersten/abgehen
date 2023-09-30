@@ -50,7 +50,7 @@ bind "KP_0" ""
 [valve.rc](https://raw.githubusercontent.com/JustusBersten/abgehen/master/cfg/cs2/valve.rc)
 
 
-### How to Install
+### How to install
 1. Navigate to: `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\cfg`
 1. Open `config.cfg` and ***DELETE*** all content.
 1. Save the empty file and make it ***READ ONLY***
