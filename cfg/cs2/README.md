@@ -142,6 +142,7 @@ After the Wild West Simulator 2015 update, [_video.txt_](https://github.com/Just
 **Note: With the CS2 update, this bind is not needed anymore! Jumpthrow nades are consistent now. However, if you are used to use a jumpthrow as I am, I would keep it.**
 
 ```
+// JUMPTHROW
 alias "+jumpaction" "+jump;"
 alias "+throwaction" "-attack; -attack2"
 alias "-jumpaction" "-jump"
