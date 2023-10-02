@@ -5,6 +5,7 @@ This is my constantly updated configuration repository with strats, personal set
 
 ## Profiles
 [STEAM](http://steamcommunity.com/id/phecks/)
+[Chess.com](https://www.chess.com/stats/overview/justusbersten?)
 
 ---
 
