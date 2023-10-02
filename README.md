@@ -8,7 +8,7 @@ This is my constantly updated configuration repository with strats, personal set
 
 ---
 
-## Configs
+## Configs Link tree
 
 ### [CS2](./cfg/cs2/README.md)
 ### [Valorant](./cfg/valo/README.md)
