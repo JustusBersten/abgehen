@@ -170,6 +170,12 @@ cl_radar_square_with_scoreboard "0"
 ### Strats
 Videos and links
 
+
+####
+
+[5 Smokes for every map](https://www.youtube.com/watch?v=LBzuOB3C4TY)
+
+
 #### Basics
 
 ##### How to play as a team

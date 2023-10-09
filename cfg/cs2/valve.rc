@@ -169,7 +169,6 @@ weapon_debug_spread_show "0"
 
 // NETSETTINGS
 rate "128000"
-cl_interpolate "1"
 cl_lagcompensation "1"
 
 // JUMPTHROW
@@ -187,8 +186,6 @@ zoom_sensitivity_ratio "0.818933027098955175" // see reddit for infos
 // VIDEO
 fps_max "300"
 fps_max_ui "145"
-r_dynamic "0"
-mat_queue_mode "-1" // auto detect multi-core rendering
 
 // CROSSHAIR
 cl_crosshairalpha "200"
@@ -203,8 +200,6 @@ cl_crosshairstyle "5"
 cl_crosshairusealpha "1"
 cl_crosshairthickness "1.5"
 cl_fixedcrosshairgap "0"
-cl_crosshair_outline "0"
-cl_crosshair_outline_draw "0"
 
 // VIEWMODEL
 viewmodel_fov "65"
@@ -213,7 +208,7 @@ viewmodel_offset_y "2"
 viewmodel_offset_z "-2"
 
 // NETGRAPH
-cq_netgraph "1"
+cq_netgraph "0"
 
 // SOUND
 volume "0.50"
@@ -264,12 +259,9 @@ cl_radar_rotate "1"
 cl_radar_square_with_scoreboard "0"
 
 // MISC
-cl_teamid_overhead_always "1"
 hud_scaling "1"
 mp_playerid_delay "0"
 cl_show_clan_in_death_notice "0"
-con_filter_enable "2"
-con_filter "Damage"
 cl_color "1" // 0 = yellow , 1 = purple , 2 = green , 3 = blue , 4 = orange
 cl_hud_color "5" // 0 = default, 1 = white, 2 = light blue, 3 = dark blue, 4 = purple, 5 = red, 6 = orange, 7 = yellow, 8 = light green, 9 = turquois, 10 = pink
 cl_teammate_colors_show "1" // 1 = color , 2 = color + letters
@@ -285,4 +277,3 @@ echo "CS2 version"
 echo "contact: justusbersten@gmail.com"
 echo "phecks.bersten"
 echo ""
-stuffcmds
