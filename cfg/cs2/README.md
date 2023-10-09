@@ -22,7 +22,7 @@ I use a custom buyscript that utilizes numpad.
 bind "KP_1" "buy incgrenade;buy molotov"
 bind "KP_2" "buy p90; buy vest"
 bind "KP_3" "buy galilar; buy famas; buy vest"
-bind "KP_4" "buy ak47; buy m4a1; buy vesthelm"
+bind "KP_4" "buy ak47; buy m4a1_silencer; buy vesthelm"
 bind "KP_5" "buy awp"
 bind "KP_6" "buy smokegrenade"
 bind "KP_7" "buy flashbang"
