@@ -39,17 +39,18 @@ bind "KP_0" ""
 
 
 ### Download & installation
-[valve.rc](https://raw.githubusercontent.com/mjt91/abgehen/master/cfg/cs2/valve.rc)
+[autoexec.cfg](https://raw.githubusercontent.com/mjt91/abgehen/master/cfg/cs2/autoexec.cfg)
 
 1. Navigate to: `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\core\cfg`
 1. Open `config.cfg` and ***DELETE*** all content.
-1. Save the empty file and make it ***READ ONLY***
-1. Create a new .txt file and name it `valve.rc`
+1. Create a new .txt file and name it `autoexec.cfg`
 1. Open the file with your favourite text editor.
 1. Click the Link above and copy & paste my config.
     - *Optional:* Make this file ***READ ONLY*** too. (I am not sure if this is a must or optional. Sometimes CS F***S YOU OVER AND OVERWRITES ALL YOUR CONFIG FOR NO REASON).
-1. Start the game. Open Console. You should see an echo message.
-    - If this is not the case run `exec valve.rc` into the console and you should be good to go.
+1. Go to Steam > CS2 > Properties > Launch options > add `+exec autoexec.cfg`
+    - This will load everything in your autoexec everytime you start the game
+3. Start the game. Open Console. You should see an echo message.
+    - If this is not the case run `exec autoexec.cfg` into the console and you should be good to go.
 
 ___
 
